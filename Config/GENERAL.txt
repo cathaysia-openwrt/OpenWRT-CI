@@ -1,5 +1,6 @@
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=n
+CONFIG_PACKAGE_luci-app-openclash=y
 #主题
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-theme-aurora=n
@@ -77,6 +78,7 @@ CONFIG_PACKAGE_kmod-veth=y
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_kmod-tcp-bbr=y
 #组件调整
+CONFIG_PACKAGE_wget-ssl=y # 避免安装到 wget-nossl
 CONFIG_PACKAGE_autocore=y
 CONFIG_PACKAGE_automount=y
 CONFIG_PACKAGE_blkid=y
